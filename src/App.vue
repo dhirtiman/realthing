@@ -1,17 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img class="img" alt="Clock" src="./assets/clock.png">
+  <TodoList msg="Vue Clock"/>
+  <CalculatorApp/>
+
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+<script setup>
+import TodoList from './components/TodoList.vue';
+import CalculatorApp from './components/CalculatorApp.vue';
 </script>
 
 <style>
@@ -23,4 +19,10 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.img{
+  width: 10%;
+  height: 10%;
+}
+
 </style>
