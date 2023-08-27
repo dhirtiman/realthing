@@ -1,13 +1,11 @@
 <template>
   <img class="img" alt="Clock" src="./assets/clock.png">
-  <TodoList msg="Vue Clock"/>
-  <CalculatorApp/>
-
+  <TodoApp />
 </template>
 
 <script setup>
-import TodoList from './components/TodoList.vue';
-import CalculatorApp from './components/CalculatorApp.vue';
+// import ClockApp from './components/ClockApp.vue';
+import TodoApp from './components/TodoApp.vue';
 </script>
 
 <style>

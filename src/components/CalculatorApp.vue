@@ -3,6 +3,7 @@
       <h1>Calculator App</h1>
       <input v-model="inputExpression" @keyup.enter="calculateResult" placeholder="Enter expression">
       <button @click="calculateResult">Calculate</button>
+
       <p>Result: {{ result }}</p>
     </div>
   </template>
